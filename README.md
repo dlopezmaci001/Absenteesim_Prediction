@@ -1,0 +1,2 @@
+# Absenteesim_Prediction
+The experimental data we are going to use is the Absenteeism at work Data Set (https://archive.ics.uci.edu/ml/datasets/Absenteeism+at+work). The first goal with this dataset is to decide what do you want to predict. You must determine what categorical variable to construct over the existing predictors, to classify/predict (binomial or multinomial) the absenteeism of individuals. Examples: • Binomial: Individuals with more than X hours in total (based on ’Absenteeism time in hours’ predictor), or less than that.
