@@ -12,8 +12,6 @@ library(PresenceAbsence)
 
 ##### Construction of target variable:
 
-setwd("C:/Users/Daniel/Desktop/Machine L II/Individual_ass")
-
 raw <- read.csv2("Absenteeism_at_work.csv",header =  TRUE, sep = ";")
 
 # QC CHeck
@@ -25,7 +23,7 @@ dim(raw)
 # I've just loaded the data set and built a new feature that considering the number
 # of hours of absenteeism, produces a boolean (binomial) variable.
 # in order to consider what is absenteeism, without nowing anything else from the data
-# we would say absenteeism is considered when the total nº of hours is above the mean
+# we would say absenteeism is considered when the total nÂº of hours is above the mean
 
 mean(raw$Absenteeism.time.in.hours)
 
